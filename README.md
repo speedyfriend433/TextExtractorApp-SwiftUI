@@ -13,7 +13,10 @@ A modern iOS app built with SwiftUI that extracts text from images using Vision 
 - 📋 Copy and Share Functionality
 
 ## Screenshots
-[soon]
+![B081D151-A82A-4C4A-9B59-F621B4DFC406](https://github.com/user-attachments/assets/cab45017-77c9-4658-b75e-823a16729036)
+![BA45639B-3CE3-43B9-9271-F87AC4CE0F33](https://github.com/user-attachments/assets/a51aab68-c6eb-494f-b078-70d32a9ce1a8)
+![1EF69210-325E-4595-A713-1043FCEB2746](https://github.com/user-attachments/assets/fa26f539-2d61-4d9c-8510-27e1c3ac5a97)
+![477F0627-A688-439C-A863-30B8AB708C0F](https://github.com/user-attachments/assets/87482548-e0fd-4ffd-803f-77bd138a38e7)
 
 ## Requirements
 - iOS 16.0+ (Because of 'tracking' function, Sorry for iOS 14-15 Users 😔)
