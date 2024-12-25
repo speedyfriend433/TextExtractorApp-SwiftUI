@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E3B7B3A2D1BB5180016A5FC /* OCRSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3B7B392D1BB5180016A5FC /* OCRSettingsViewModel.swift */; };
+		8E91740F2D1B081C0054C46E /* TextExtractorAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91740E2D1B081C0054C46E /* TextExtractorAppApp.swift */; };
+		8E9174112D1B081C0054C46E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9174102D1B081C0054C46E /* ContentView.swift */; };
+		8E9174132D1B081E0054C46E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9174122D1B081E0054C46E /* Assets.xcassets */; };
+		8E9174162D1B081E0054C46E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9174152D1B081E0054C46E /* Preview Assets.xcassets */; };
+		8E9174202D1B081E0054C46E /* TextExtractorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91741F2D1B081E0054C46E /* TextExtractorAppTests.swift */; };
+		8E91742A2D1B081E0054C46E /* TextExtractorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9174292D1B081E0054C46E /* TextExtractorAppUITests.swift */; };
+		8E91742C2D1B081E0054C46E /* TextExtractorAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91742B2D1B081E0054C46E /* TextExtractorAppUITestsLaunchTests.swift */; };
+		8E91743B2D1B08550054C46E /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91743A2D1B08550054C46E /* ImagePickerView.swift */; };
+		8E91743D2D1B085E0054C46E /* ExtractedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91743C2D1B085E0054C46E /* ExtractedTextView.swift */; };
+		8E9174402D1B087B0054C46E /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91743F2D1B087B0054C46E /* TextRecognizer.swift */; };
+		8E9174432D1B08B80054C46E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9174422D1B08B80054C46E /* Extensions.swift */; };
+		8E9174472D1B12A40054C46E /* FullTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9174462D1B12A40054C46E /* FullTextView.swift */; };
+		8E9174492D1B137B0054C46E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9174482D1B137B0054C46E /* MainTabView.swift */; };
+		8E91744B2D1B15410054C46E /* TextFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91744A2D1B15410054C46E /* TextFormatting.swift */; };
+		8E91744D2D1B16610054C46E /* StyleConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91744C2D1B16610054C46E /* StyleConstants.swift */; };
+		8E91744F2D1B16710054C46E /* FormattingOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91744E2D1B16710054C46E /* FormattingOption.swift */; };
+		8E9174512D1B16810054C46E /* BeautifulFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9174502D1B16810054C46E /* BeautifulFormattingView.swift */; };
+		8E9174532D1B1B100054C46E /* OCRSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9174522D1B1B100054C46E /* OCRSettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E91741C2D1B081E0054C46E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E9174032D1B081C0054C46E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E91740A2D1B081C0054C46E;
+			remoteInfo = TextExtractorApp;
+		};
+		8E9174262D1B081E0054C46E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E9174032D1B081C0054C46E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E91740A2D1B081C0054C46E;
+			remoteInfo = TextExtractorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E3B7B392D1BB5180016A5FC /* OCRSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRSettingsViewModel.swift; sourceTree = "<group>"; };
+		8E91740B2D1B081C0054C46E /* TextExtractorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextExtractorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E91740E2D1B081C0054C46E /* TextExtractorAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtractorAppApp.swift; sourceTree = "<group>"; };
+		8E9174102D1B081C0054C46E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E9174122D1B081E0054C46E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E9174152D1B081E0054C46E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E91741B2D1B081E0054C46E /* TextExtractorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextExtractorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E91741F2D1B081E0054C46E /* TextExtractorAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtractorAppTests.swift; sourceTree = "<group>"; };
+		8E9174252D1B081E0054C46E /* TextExtractorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextExtractorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9174292D1B081E0054C46E /* TextExtractorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtractorAppUITests.swift; sourceTree = "<group>"; };
+		8E91742B2D1B081E0054C46E /* TextExtractorAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtractorAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E91743A2D1B08550054C46E /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		8E91743C2D1B085E0054C46E /* ExtractedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedTextView.swift; sourceTree = "<group>"; };
+		8E91743F2D1B087B0054C46E /* TextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
+		8E9174422D1B08B80054C46E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8E9174462D1B12A40054C46E /* FullTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullTextView.swift; sourceTree = "<group>"; };
+		8E9174482D1B137B0054C46E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		8E91744A2D1B15410054C46E /* TextFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormatting.swift; sourceTree = "<group>"; };
+		8E91744C2D1B16610054C46E /* StyleConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleConstants.swift; sourceTree = "<group>"; };
+		8E91744E2D1B16710054C46E /* FormattingOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattingOption.swift; sourceTree = "<group>"; };
+		8E9174502D1B16810054C46E /* BeautifulFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulFormattingView.swift; sourceTree = "<group>"; };
+		8E9174522D1B1B100054C46E /* OCRSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRSettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E9174082D1B081C0054C46E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9174182D1B081E0054C46E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9174222D1B081E0054C46E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E9174022D1B081C0054C46E = {
+			isa = PBXGroup;
+			children = (
+				8E91740D2D1B081C0054C46E /* TextExtractorApp */,
+				8E91741E2D1B081E0054C46E /* TextExtractorAppTests */,
+				8E9174282D1B081E0054C46E /* TextExtractorAppUITests */,
+				8E91740C2D1B081C0054C46E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E91740C2D1B081C0054C46E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E91740B2D1B081C0054C46E /* TextExtractorApp.app */,
+				8E91741B2D1B081E0054C46E /* TextExtractorAppTests.xctest */,
+				8E9174252D1B081E0054C46E /* TextExtractorAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E91740D2D1B081C0054C46E /* TextExtractorApp */ = {
+			isa = PBXGroup;
+			children = (
+				8E9174412D1B08AF0054C46E /* Utilities */,
+				8E91743E2D1B08660054C46E /* Models */,
+				8E9174392D1B08410054C46E /* Views */,
+				8E9174382D1B08340054C46E /* App */,
+				8E9174122D1B081E0054C46E /* Assets.xcassets */,
+				8E9174142D1B081E0054C46E /* Preview Content */,
+			);
+			path = TextExtractorApp;
+			sourceTree = "<group>";
+		};
+		8E9174142D1B081E0054C46E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E9174152D1B081E0054C46E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E91741E2D1B081E0054C46E /* TextExtractorAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E91741F2D1B081E0054C46E /* TextExtractorAppTests.swift */,
+			);
+			path = TextExtractorAppTests;
+			sourceTree = "<group>";
+		};
+		8E9174282D1B081E0054C46E /* TextExtractorAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E9174292D1B081E0054C46E /* TextExtractorAppUITests.swift */,
+				8E91742B2D1B081E0054C46E /* TextExtractorAppUITestsLaunchTests.swift */,
+			);
+			path = TextExtractorAppUITests;
+			sourceTree = "<group>";
+		};
+		8E9174382D1B08340054C46E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8E91740E2D1B081C0054C46E /* TextExtractorAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8E9174392D1B08410054C46E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E9174102D1B081C0054C46E /* ContentView.swift */,
+				8E9174502D1B16810054C46E /* BeautifulFormattingView.swift */,
+				8E9174522D1B1B100054C46E /* OCRSettingsView.swift */,
+				8E9174482D1B137B0054C46E /* MainTabView.swift */,
+				8E9174462D1B12A40054C46E /* FullTextView.swift */,
+				8E91743A2D1B08550054C46E /* ImagePickerView.swift */,
+				8E91743C2D1B085E0054C46E /* ExtractedTextView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8E91743E2D1B08660054C46E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E91743F2D1B087B0054C46E /* TextRecognizer.swift */,
+				8E3B7B392D1BB5180016A5FC /* OCRSettingsViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8E9174412D1B08AF0054C46E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8E9174422D1B08B80054C46E /* Extensions.swift */,
+				8E91744A2D1B15410054C46E /* TextFormatting.swift */,
+				8E91744C2D1B16610054C46E /* StyleConstants.swift */,
+				8E91744E2D1B16710054C46E /* FormattingOption.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E91740A2D1B081C0054C46E /* TextExtractorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E91742F2D1B081E0054C46E /* Build configuration list for PBXNativeTarget "TextExtractorApp" */;
+			buildPhases = (
+				8E9174072D1B081C0054C46E /* Sources */,
+				8E9174082D1B081C0054C46E /* Frameworks */,
+				8E9174092D1B081C0054C46E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextExtractorApp;
+			productName = TextExtractorApp;
+			productReference = 8E91740B2D1B081C0054C46E /* TextExtractorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E91741A2D1B081E0054C46E /* TextExtractorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E9174322D1B081E0054C46E /* Build configuration list for PBXNativeTarget "TextExtractorAppTests" */;
+			buildPhases = (
+				8E9174172D1B081E0054C46E /* Sources */,
+				8E9174182D1B081E0054C46E /* Frameworks */,
+				8E9174192D1B081E0054C46E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E91741D2D1B081E0054C46E /* PBXTargetDependency */,
+			);
+			name = TextExtractorAppTests;
+			productName = TextExtractorAppTests;
+			productReference = 8E91741B2D1B081E0054C46E /* TextExtractorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E9174242D1B081E0054C46E /* TextExtractorAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E9174352D1B081E0054C46E /* Build configuration list for PBXNativeTarget "TextExtractorAppUITests" */;
+			buildPhases = (
+				8E9174212D1B081E0054C46E /* Sources */,
+				8E9174222D1B081E0054C46E /* Frameworks */,
+				8E9174232D1B081E0054C46E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E9174272D1B081E0054C46E /* PBXTargetDependency */,
+			);
+			name = TextExtractorAppUITests;
+			productName = TextExtractorAppUITests;
+			productReference = 8E9174252D1B081E0054C46E /* TextExtractorAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E9174032D1B081C0054C46E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8E91740A2D1B081C0054C46E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8E91741A2D1B081E0054C46E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8E91740A2D1B081C0054C46E;
+					};
+					8E9174242D1B081E0054C46E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8E91740A2D1B081C0054C46E;
+					};
+				};
+			};
+			buildConfigurationList = 8E9174062D1B081C0054C46E /* Build configuration list for PBXProject "TextExtractorApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E9174022D1B081C0054C46E;
+			productRefGroup = 8E91740C2D1B081C0054C46E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E91740A2D1B081C0054C46E /* TextExtractorApp */,
+				8E91741A2D1B081E0054C46E /* TextExtractorAppTests */,
+				8E9174242D1B081E0054C46E /* TextExtractorAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E9174092D1B081C0054C46E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9174162D1B081E0054C46E /* Preview Assets.xcassets in Resources */,
+				8E9174132D1B081E0054C46E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9174192D1B081E0054C46E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9174232D1B081E0054C46E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E9174072D1B081C0054C46E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9174472D1B12A40054C46E /* FullTextView.swift in Sources */,
+				8E9174112D1B081C0054C46E /* ContentView.swift in Sources */,
+				8E9174492D1B137B0054C46E /* MainTabView.swift in Sources */,
+				8E9174432D1B08B80054C46E /* Extensions.swift in Sources */,
+				8E91744F2D1B16710054C46E /* FormattingOption.swift in Sources */,
+				8E91743B2D1B08550054C46E /* ImagePickerView.swift in Sources */,
+				8E9174402D1B087B0054C46E /* TextRecognizer.swift in Sources */,
+				8E9174532D1B1B100054C46E /* OCRSettingsView.swift in Sources */,
+				8E9174512D1B16810054C46E /* BeautifulFormattingView.swift in Sources */,
+				8E91744B2D1B15410054C46E /* TextFormatting.swift in Sources */,
+				8E91744D2D1B16610054C46E /* StyleConstants.swift in Sources */,
+				8E91743D2D1B085E0054C46E /* ExtractedTextView.swift in Sources */,
+				8E3B7B3A2D1BB5180016A5FC /* OCRSettingsViewModel.swift in Sources */,
+				8E91740F2D1B081C0054C46E /* TextExtractorAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9174172D1B081E0054C46E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9174202D1B081E0054C46E /* TextExtractorAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9174212D1B081E0054C46E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E91742C2D1B081E0054C46E /* TextExtractorAppUITestsLaunchTests.swift in Sources */,
+				8E91742A2D1B081E0054C46E /* TextExtractorAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E91741D2D1B081E0054C46E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E91740A2D1B081C0054C46E /* TextExtractorApp */;
+			targetProxy = 8E91741C2D1B081E0054C46E /* PBXContainerItemProxy */;
+		};
+		8E9174272D1B081E0054C46E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E91740A2D1B081C0054C46E /* TextExtractorApp */;
+			targetProxy = 8E9174262D1B081E0054C46E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8E91742D2D1B081E0054C46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E91742E2D1B081E0054C46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E9174302D1B081E0054C46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TextExtractorApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5TY9N2G2MQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to capture images for text extraction.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to select images for text extraction.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.TextExtractorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E9174312D1B081E0054C46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TextExtractorApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5TY9N2G2MQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to capture images for text extraction.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to select images for text extraction.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.TextExtractorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E9174332D1B081E0054C46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J7AVU8UN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.TextExtractorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextExtractorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TextExtractorApp";
+			};
+			name = Debug;
+		};
+		8E9174342D1B081E0054C46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J7AVU8UN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.TextExtractorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextExtractorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TextExtractorApp";
+			};
+			name = Release;
+		};
+		8E9174362D1B081E0054C46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J7AVU8UN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.TextExtractorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TextExtractorApp;
+			};
+			name = Debug;
+		};
+		8E9174372D1B081E0054C46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J7AVU8UN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.TextExtractorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TextExtractorApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E9174062D1B081C0054C46E /* Build configuration list for PBXProject "TextExtractorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E91742D2D1B081E0054C46E /* Debug */,
+				8E91742E2D1B081E0054C46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E91742F2D1B081E0054C46E /* Build configuration list for PBXNativeTarget "TextExtractorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9174302D1B081E0054C46E /* Debug */,
+				8E9174312D1B081E0054C46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E9174322D1B081E0054C46E /* Build configuration list for PBXNativeTarget "TextExtractorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9174332D1B081E0054C46E /* Debug */,
+				8E9174342D1B081E0054C46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E9174352D1B081E0054C46E /* Build configuration list for PBXNativeTarget "TextExtractorAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9174362D1B081E0054C46E /* Debug */,
+				8E9174372D1B081E0054C46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E9174032D1B081C0054C46E /* Project object */;
+}
